@@ -5,7 +5,7 @@ const LoginFacebook = () => {
   const handleFacebookLogin = (response) => {
     if (response.status !== 'unknown') {
       // User is logged in with Facebook
-      const accessToken = "EABmam5PgzK0BAKnjxDYWtZAlL4CBHzIT1sUUKzGGF4IZAlfZBNv0vUDdKz9P52rNdZA87LIn52Q74lD3lJC8XZBpvJca0IoD3nsUb1iVssjpmaQtdv3RQbPLiFiAsIvfSCZAJUhqzgO8xukxYKrMZCXCHqQNzLa9TGbHLtJcuLAKKphiojvMEHQbORYZCyTSHdYIEihJvTH0rc1UwxKbmtt6ZBpCuVa8l3GQZD";
+      const accessToken = response.accessToken;
       // Send the access token to the Django backend for authentication
       fetch('https://ff3b-41-188-36-110.ngrok-free.app/social/api/login/facebook/', {
         method: 'POST',
