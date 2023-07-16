@@ -33,7 +33,7 @@ const LoginFacebook = () => {
     <div>
       <FacebookLogin
         appId="266421499351906"
-        fields="name,email,picture,manage_pages"
+        fields="name,email,picture,public_profile,manage_pages,pages_messaging,pages_show_list"
         callback={handleFacebookLogin}
       />
     </div>
