@@ -7,7 +7,7 @@ const LoginFacebook = () => {
       // User is logged in with Facebook
       const accessToken = response.accessToken;
       // Send the access token to the Django backend for authentication
-      fetch('https://3d7b-154-126-56-5.ngrok-free.app/social/api/login/facebook/', {
+      fetch('https://557f-41-188-36-110.ngrok-free.app/social/api/login/facebook/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
