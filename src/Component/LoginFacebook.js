@@ -7,7 +7,7 @@ const LoginFacebook = () => {
       // User is logged in with Facebook
       const accessToken = response.accessToken;
       // Send the access token to the Django backend for authentication
-      fetch('https://e10a-102-16-42-108.ngrok-free.app/social/api/login/facebook/', {
+      fetch('https://76e5-154-126-56-5.ngrok-free.app/social/api/login/facebook/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ const LoginFacebook = () => {
   return (
     <div>
       <FacebookLogin
-        appId="216353421374535"
+        appId="266421499351906"
         fields="name,email,picture"
         callback={handleFacebookLogin}
       />
