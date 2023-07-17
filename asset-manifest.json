@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/frontsocial/static/css/main.073c9b0a.css",
-    "main.js": "/frontsocial/static/js/main.bc0a332e.js",
+    "main.js": "/frontsocial/static/js/main.240cbf1b.js",
     "static/js/787.407208c5.chunk.js": "/frontsocial/static/js/787.407208c5.chunk.js",
     "static/media/logo.svg": "/frontsocial/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/frontsocial/index.html",
     "main.073c9b0a.css.map": "/frontsocial/static/css/main.073c9b0a.css.map",
-    "main.bc0a332e.js.map": "/frontsocial/static/js/main.bc0a332e.js.map",
+    "main.240cbf1b.js.map": "/frontsocial/static/js/main.240cbf1b.js.map",
     "787.407208c5.chunk.js.map": "/frontsocial/static/js/787.407208c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.bc0a332e.js"
+    "static/js/main.240cbf1b.js"
   ]
 }
